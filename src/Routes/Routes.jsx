@@ -7,6 +7,7 @@ import Colleges from "../Component/Page/Colleges/Colleges";
 import Admission from "../Component/Page/Admission/Admission";
 import Login from "../Authentication/Login/Login";
 import Register from "../Authentication/Register/Register";
+import MyCollege from "../Component/Page/MyCollege/MyCollege";
 
 
 
@@ -27,6 +28,10 @@ import Register from "../Authentication/Register/Register";
         {
             path : '/colleges',
             element: <Colleges></Colleges>
+        },
+        {
+            path : '/mycollege',
+            element: <MyCollege></MyCollege>
         },
         {
             path : '/admission',

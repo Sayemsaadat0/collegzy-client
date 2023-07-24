@@ -1,6 +1,4 @@
-
 import Container from "../../../../Container/Container";
-import SectionTitle from "../../../Shared/SectionTitle/SectionTitle";
 import DetailsCard from "./DetailsCard";
 
 const Best3CollegeDetails = () => {

@@ -30,9 +30,9 @@ const Colleges = () => {
                             <h2 className="text-xl font-bold text-center">{college.college_name}</h2>
                             <p><span className=' font-bold'>Admission Date :</span> {college.admission_date}</p>
                             <p><span className='font-bold'>Research history :</span> {college.research_history}</p>
-                            <div>
+                            <div className='font-bold text-2xl'>
                                 <span className='font-bold'>Research Count : </span>
-                                <CountUp end={college.research_count} duration={2.5} /> +
+                                <CountUp end={college.research_count} duration={10} /> +
                             </div>
                             <div className="card-actions justify-center">
                                 <div className="badge badge-outline">Events</div>
